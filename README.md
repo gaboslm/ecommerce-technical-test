@@ -2,6 +2,8 @@
 
 Este repositorio contiene la estructura, consigna y guía de desarrollo para la creación de una aplicación de comercio electrónico utilizando **React**, **React-Bootstrap**, **Font Awesome** y **React Router Dom**.
 
+![Vista de la aplicación](https://github.com/gaboslm/ecommerce-technical-test/blob/main/src/assets/images/screen.png)
+
 ---
 
 ## 📌 Resumen
