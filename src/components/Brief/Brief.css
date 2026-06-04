@@ -1,0 +1,167 @@
+.brief-card {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.75rem;
+  margin-bottom: 24px;
+}
+
+.brief-header {
+  background-color: #f6faff;
+  border-bottom: 1px solid #e9ecef;
+  padding: 20px 24px;
+}
+
+.brief-header h3 {
+  color: #141d23;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.brief-body {
+  padding: 0;
+}
+
+.brief-table {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.brief-table thead th {
+  background-color: #f6faff;
+  color: #414754;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 16px 24px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.brief-table tbody td {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e9ecef;
+  vertical-align: middle;
+}
+
+.product-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid #e9ecef;
+}
+
+.product-name {
+  color: #141d23;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.price-cell,
+.quantity-cell,
+.subtotal-cell {
+  color: #414754;
+  font-size: 0.875rem;
+}
+
+.subtotal-cell {
+  font-weight: 600;
+  color: #141d23;
+}
+
+.action-cell {
+  text-align: right;
+}
+
+.remove-btn {
+  border-color: #ba1a1a;
+  color: #ba1a1a;
+  transition: all 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #ffdad6;
+  border-color: #ba1a1a;
+  color: #93000a;
+}
+
+.brief-table tfoot td {
+  background-color: #f6faff;
+  padding: 20px 24px;
+  font-weight: 600;
+  border-top: 2px solid #e9ecef;
+}
+
+.total-label {
+  color: #414754;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.total-amount {
+  color: #141d23;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.empty-cart-card {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.75rem;
+  padding: 40px;
+  text-align: center;
+}
+
+.empty-cart-message {
+  color: #414754;
+  font-size: 1.125rem;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.empty-cart-message i {
+  margin-right: 8px;
+  color: #717786;
+}
+
+@media (max-width: 768px) {
+  .brief-table thead {
+    display: none;
+  }
+
+  .brief-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .brief-table tbody td {
+    padding: 8px 0;
+    border: none;
+  }
+
+  .product-cell {
+    width: 100%;
+  }
+
+  .action-cell {
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .brief-table tfoot {
+    display: none;
+  }
+
+  .total-label,
+  .total-amount {
+    display: none;
+  }
+}

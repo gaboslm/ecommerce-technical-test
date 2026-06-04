@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "TechNova Pro Laptop",
+    "price": 1299.99,
+    "category": "laptops",
+    "stock": 15,
+    "image": "/images/product.png",
+    "description": "High-performance laptop with 16GB RAM, 512GB SSD, and Intel Core i7 processor. Perfect for professionals and power users who demand speed and reliability."
+  },
+  {
+    "id": 2,
+    "name": "UltraSlim Monitor 27\"",
+    "price": 449.99,
+    "category": "monitors",
+    "stock": 20,
+    "image": "/images/product.png",
+    "description": "27-inch 4K Ultra HD display with HDR support. Slim bezel design for immersive viewing experience and multi-monitor setups."
+  },
+  {
+    "id": 3,
+    "name": "Wireless Ergonomic Keyboard",
+    "price": 89.99,
+    "category": "accessories",
+    "stock": 50,
+    "image": "/images/product.png",
+    "description": "Ergonomic wireless keyboard with split design and wrist rest. Reduces strain during long typing sessions with responsive keys."
+  },
+  {
+    "id": 4,
+    "name": "Precision Gaming Mouse",
+    "price": 79.99,
+    "category": "accessories",
+    "stock": 35,
+    "image": "/images/product.png",
+    "description": "High-precision gaming mouse with 16000 DPI sensor and customizable RGB lighting. Programmable buttons for competitive gaming."
+  },
+  {
+    "id": 5,
+    "name": "TechNova Smart Watch",
+    "price": 299.99,
+    "category": "wearables",
+    "stock": 25,
+    "image": "/images/product.png",
+    "description": "Advanced smartwatch with health monitoring, GPS tracking, and 7-day battery life. Water-resistant design for active lifestyles."
+  },
+  {
+    "id": 6,
+    "name": "Portable SSD 1TB",
+    "price": 159.99,
+    "category": "storage",
+    "stock": 30,
+    "image": "/images/product.png",
+    "description": "Ultra-fast portable SSD with 1TB capacity. USB-C connectivity with transfer speeds up to 1050MB/s. Rugged and compact design."
+  },
+  {
+    "id": 7,
+    "name": "Noise-Canceling Headphones",
+    "price": 349.99,
+    "category": "audio",
+    "stock": 18,
+    "image": "/images/product.png",
+    "description": "Premium noise-canceling headphones with 30-hour battery life. Crystal-clear audio quality with comfortable over-ear design."
+  },
+  {
+    "id": 8,
+    "name": "4K Webcam Pro",
+    "price": 129.99,
+    "category": "accessories",
+    "stock": 40,
+    "image": "/images/product.png",
+    "description": "Professional 4K webcam with auto-focus and low-light correction. Perfect for streaming, video conferencing, and content creation."
+  }
+]
